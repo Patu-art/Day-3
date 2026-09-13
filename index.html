@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f3eee6">
+  <meta name="description" content="Artista Perfetto Ancoats — precision-led specialty coffee on Oldham Road, Manchester. Unofficial outreach demo.">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <meta property="og:title" content="Artista Perfetto — Ancoats">
+  <meta property="og:description" content="Precision-led specialty coffee on Oldham Road, Manchester.">
+  <meta property="og:type" content="website">
+  <title>Artista Perfetto — Ancoats</title>
+  <link rel="stylesheet" href="style.css?v=20260913-4">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+
+  <header class="header" id="top">
+    <a class="wordmark" href="#top" aria-label="Artista Perfetto home">
+      <strong>ARTISTA PERFETTO</strong>
+      <span>ANCOATS · MANCHESTER</span>
+    </a>
+
+    <button class="menu-button" id="menuButton" type="button" aria-expanded="false" aria-controls="nav">
+      <span></span><span></span><b class="sr-only">Open menu</b>
+    </button>
+
+    <nav class="nav" id="nav" aria-label="Primary">
+      <a href="#signatures">Signatures</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#story">Story</a>
+      <a href="#visit">Visit</a>
+      <a class="nav-cta" href="https://www.instagram.com/artistaperfettouk/" target="_blank" rel="noreferrer">Instagram ↗</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero shell">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span></span> 130 OLDHAM ROAD · ANCOATS</p>
+        <h1>COFFEE,<br><em>CONSIDERED.</em></h1>
+        <p class="lede">A small Manchester coffee bar built around careful brewing, unusual signature drinks and small-batch bakes.</p>
+        <div class="hero-actions">
+          <a class="button dark" href="#signatures">What to order</a>
+          <a class="button line" href="https://www.google.com/maps/search/?api=1&query=Artista+Perfetto+130+Oldham+Road+Manchester+M4+6BG" target="_blank" rel="noreferrer">Directions ↗</a>
+        </div>
+      </div>
+
+      <figure class="hero-media reveal">
+        <img class="local-media" src="assets/images/hero.jpg" data-label="REAL ANCOATS HERO PHOTO" referrerpolicy="no-referrer" decoding="async" alt="Customers outside Artista Perfetto on Oldham Road in Ancoats" fetchpriority="high">
+        <figcaption><span>ANCOATS</span><span>M4 6BG</span></figcaption>
+      </figure>
+    </section>
+
+    <section class="quick shell" aria-label="Quick visit information">
+      <a href="#signatures"><span>TRY</span><strong>The Dirty · Iced Blackcinno</strong><i>↓</i></a>
+      <a href="https://artistaperfetto.com/pages/store-info" target="_blank" rel="noreferrer"><span>HOURS</span><strong>Check official listing</strong><i>↗</i></a>
+      <a href="https://www.google.com/maps/search/?api=1&query=Artista+Perfetto+130+Oldham+Road+Manchester+M4+6BG" target="_blank" rel="noreferrer"><span>VISIT</span><strong>130 Oldham Road</strong><i>↗</i></a>
+      <a href="https://www.instagram.com/artistaperfettouk/" target="_blank" rel="noreferrer"><span>NOW</span><strong>@artistaperfettouk</strong><i>↗</i></a>
+    </section>
+
+    <section class="intro shell reveal">
+      <p class="section-no">01 / THE APPROACH</p>
+      <h2>Coffee for people<br>who notice the details.</h2>
+      <p class="intro-copy">Artista Perfetto brings techniques picked up across Japan and Hong Kong into a compact Ancoats shop — precise without becoming precious.</p>
+    </section>
+
+    <section class="signatures" id="signatures">
+      <div class="shell signatures-shell">
+        <div class="section-head reveal">
+          <p class="section-no light">02 / SIGNATURES</p>
+          <h2>Start here.</h2>
+          <p>The interesting bit is the method. Choose a drink to see why it is different.</p>
+        </div>
+
+        <div class="drink-tabs reveal" role="tablist" aria-label="Signature drinks">
+          <button id="tab-dirty" class="drink-tab active" role="tab" aria-selected="true" aria-controls="drink-panel" tabindex="0" data-drink="dirty"><span>01</span>The Dirty</button>
+          <button id="tab-blackcinno" class="drink-tab" role="tab" aria-selected="false" aria-controls="drink-panel" tabindex="-1" data-drink="blackcinno"><span>02</span>Iced Blackcinno</button>
+          <button id="tab-single" class="drink-tab" role="tab" aria-selected="false" aria-controls="drink-panel" tabindex="-1" data-drink="single"><span>03</span>Single Origin</button>
+        </div>
+
+        <div class="drink-panel reveal" id="drink-panel" role="tabpanel" aria-labelledby="tab-dirty" tabindex="0">
+          <div class="drink-main">
+            <p class="drink-kicker" id="drinkKicker">JAPAN-INSPIRED · COLD · NO ICE</p>
+            <h3 id="drinkName">THE DIRTY</h3>
+            <p id="drinkDescription">Cold milk sits beneath fresh espresso, so temperature and texture change as you drink.</p>
+          </div>
+          <dl class="drink-facts">
+            <div><dt>CHARACTER</dt><dd id="drinkCharacter">Layered · soft</dd></div>
+            <div><dt>WHY TRY IT</dt><dd id="drinkReason">A simple introduction to the shop's point of view</dd></div>
+          </dl>
+          <div class="brew-lines" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery shell" id="gallery">
+      <div class="section-head split reveal">
+        <div><p class="section-no">03 / FROM ANCOATS</p><h2>The shop,<br>as it is.</h2></div>
+        <p>Real photography from Artista Perfetto's Manchester location. The final demo loads these files directly from this repository so third-party blocking cannot break the gallery.</p>
+      </div>
+
+      <div class="carousel reveal" id="carousel" aria-roledescription="carousel" aria-label="Artista Perfetto Ancoats photographs">
+        <div class="carousel-track" id="carouselTrack">
+          <figure class="slide" aria-label="1 of 3">
+            <img class="local-media" src="assets/images/shop.jpg" data-label="REAL STOREFRONT / INTERIOR PHOTO" referrerpolicy="no-referrer" decoding="async" alt="Artista Perfetto storefront in Ancoats" loading="lazy">
+            <figcaption><b>01</b><span>The shop · Oldham Road</span></figcaption>
+          </figure>
+          <figure class="slide" aria-label="2 of 3">
+            <img class="local-media" src="assets/images/coffee-1.jpg" data-label="REAL COFFEE + BAKE PHOTO" referrerpolicy="no-referrer" decoding="async" alt="Coffee and a cookie at Artista Perfetto" loading="lazy">
+            <figcaption><b>02</b><span>Coffee + bake</span></figcaption>
+          </figure>
+          <figure class="slide" aria-label="3 of 3">
+            <img class="local-media" src="assets/images/coffee-2.jpg" data-label="REAL SECOND COFFEE PHOTO" referrerpolicy="no-referrer" decoding="async" alt="Coffee with latte art and a bake at Artista Perfetto" loading="lazy">
+            <figcaption><b>03</b><span>Made to sit together</span></figcaption>
+          </figure>
+        </div>
+        <div class="carousel-ui">
+          <button id="prevSlide" type="button" aria-label="Previous photo">←</button>
+          <span aria-live="polite"><b id="currentSlide">01</b> / 03</span>
+          <button id="nextSlide" type="button" aria-label="Next photo">→</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="story" id="story">
+      <div class="shell story-shell">
+        <div class="story-copy reveal">
+          <p class="section-no light">04 / TAIWAN → HONG KONG → MANCHESTER</p>
+          <h2>Techniques travel.<br>Taste stays personal.</h2>
+          <p>Manchester's Finest describes Artista Perfetto as the work of husband-and-wife team Noddy and Cyrus: precision-led coffee on one side, small-batch cookies on the other.</p>
+        </div>
+
+        <div class="feature-card reveal" aria-label="Artista Perfetto story video">
+          <div class="feature-top"><span>FEATURED VIDEO</span><span>ARTISTA PERFETTO</span></div>
+
+          <div class="video-shell" id="storyVideoShell">
+            <video id="storyVideo" controls playsinline preload="metadata" poster="assets/images/video-poster.jpg">
+              <source id="storyVideoSource" src="assets/video/story.mp4" type="video/mp4">
+              Your browser does not support HTML5 video.
+            </video>
+            <div class="video-missing" id="videoMissing" hidden>
+              <span class="play" aria-hidden="true">▶</span>
+              <strong>Add the real Artista Perfetto video</strong>
+              <p>Save it as <code>assets/video/story.mp4</code>. Until then, the original feature stays available below.</p>
+            </div>
+          </div>
+
+          <div class="feature-caption">
+            <strong>The story behind the shop</strong>
+            <p>Best clip: the team, barista process, or preparation of The Dirty / Iced Blackcinno. Use real brand footage only.</p>
+          </div>
+
+          <div class="feature-actions">
+            <a href="https://www.linkedin.com/posts/mcrfinest_from-taiwan-to-hong-kong-to-oldham-road-activity-7339596340336705537-wTpb" target="_blank" rel="noreferrer">Watch original coverage ↗</a>
+            <a href="https://www.manchestersfinest.com/places/artista-perfetto/" target="_blank" rel="noreferrer">Open feature page ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="signals shell">
+      <div class="section-head split reveal">
+        <div><p class="section-no">05 / WHY PEOPLE COME BACK</p><h2>Small details<br>add up.</h2></div>
+        <p>Across public coverage and reviews, the same themes keep appearing.</p>
+      </div>
+      <div class="signal-grid reveal">
+        <article><span>01</span><h3>Unusual signatures</h3><p>The Dirty and Iced Blackcinno give people something specific to remember.</p></article>
+        <article><span>02</span><h3>Precision without theatre</h3><p>The brewing is considered, but the room stays calm and approachable.</p></article>
+        <article><span>03</span><h3>Coffee + bakes</h3><p>Small-batch cookies are designed to sit alongside the coffee rather than steal the show.</p></article>
+      </div>
+    </section>
+
+    <section class="visit" id="visit">
+      <div class="social-photo reveal">
+        <img class="local-media" src="assets/images/official-storefront.jpg" data-label="REAL VISIT / STOREFRONT PHOTO" referrerpolicy="no-referrer" decoding="async" alt="Official Artista Perfetto Manchester location image" loading="lazy">
+        <a href="https://www.instagram.com/artistaperfettouk/" target="_blank" rel="noreferrer"><span>FROM THE SHOP</span><strong>@artistaperfettouk ↗</strong></a>
+      </div>
+
+      <div class="visit-copy reveal">
+        <p class="section-no light">06 / VISIT</p>
+        <h2>130<br>OLDHAM RD.</h2>
+        <dl>
+          <div><dt>ADDRESS</dt><dd>130 Oldham Road<br>Ancoats, Manchester M4 6BG</dd></div>
+          <div><dt>HOURS</dt><dd>Public listings currently differ.<br><a href="https://artistaperfetto.com/pages/store-info" target="_blank" rel="noreferrer">Check the official location page ↗</a></dd></div>
+          <div><dt>SOCIAL</dt><dd><a href="https://www.instagram.com/artistaperfettouk/" target="_blank" rel="noreferrer">@artistaperfettouk ↗</a></dd></div>
+        </dl>
+        <a class="button cream" href="https://www.google.com/maps/search/?api=1&query=Artista+Perfetto+130+Oldham+Road+Manchester+M4+6BG" target="_blank" rel="noreferrer">Get directions ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-brand"><strong>ARTISTA PERFETTO</strong><span>ANCOATS · MANCHESTER</span></div>
+    <div class="footer-meta"><a href="#top">Back to top ↑</a><p>Unofficial outreach demo. Final details should be confirmed with the business before launch.</p></div>
+  </footer>
+
+  <script src="script.js?v=20260913-4"></script>
+
+</body>
+</html>
