@@ -127,13 +127,13 @@ if(storyVideo && storyVideoSource && videoMissing){
   const mediaData = {
 
     dirty: {
-      src: "assets/images/coffee-1.jpeg",
+      src: "assets/images/dirty.jpg",
       number: "01",
       caption: "The Dirty"
     },
 
     blackcinno: {
-      src: "assets/images/coffee-2.jpeg",
+      src: "assets/images/blackcinno.jpg",
       number: "02",
       caption: "Iced Blackcinno"
     },
@@ -161,7 +161,7 @@ if(storyVideo && storyVideoSource && videoMissing){
 
       <img
         id="drinkImage"
-        src="assets/images/coffee-1.jpeg"
+        src="assets/images/dirty.jpg"
         alt="The Dirty at Artista Perfetto"
       >
 
