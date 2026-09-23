@@ -1,6 +1,10 @@
-# Artista Perfetto — Human-pass SITEPRO demo
+# Artista Perfetto — Day 03
 
-This is the tightened client-facing demo for Artista Perfetto Ancoats.
+**Independent frontend concept · 100-Day Local Business Website Challenge**
+
+[Live demo](https://patu-art.github.io/Day-3/) · [Portfolio](https://patu-art.github.io/Portfolio/)
+
+An independently created, unofficial demonstration for Artista Perfetto in Ancoats, Manchester. This is not an official site, a paid commission or an endorsement by the café.
 
 ## What changed
 - Removed the invented AP monogram/logo treatment.
